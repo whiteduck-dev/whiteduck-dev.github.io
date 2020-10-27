@@ -81,4 +81,4 @@ bundle exec jekyll serve
 
 #### Desvantagens
 
-> Se comparar com o [Wordpress](https://br.wordpress.org/) ou outros CMS o mesmo não possui um site administrativo para gerenciar seus posts, por esse motivo uma pessoal leiga não conseguiria utilizar.
+> Se comparar com o [Wordpress](https://br.wordpress.org/) ou outros CMS o mesmo não possui um site administrativo para gerenciar seus posts, por esse motivo uma pessoa leiga não conseguiria utilizar.
