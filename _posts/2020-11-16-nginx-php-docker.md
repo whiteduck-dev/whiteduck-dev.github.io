@@ -45,11 +45,13 @@ NGINX, pronunciado “engine-ex,” é um famoso software de código aberto para
 
 #### Resolução do meu problema?
 
-Foi demorado conseguir chegar num exemplo que está funcionando 100%, muitas contradições em configurações, principalmente do nginx.
+Foi demorado conseguir chegar num exemplo que esteja funcionando 100%, muitas contradições em configurações, principalmente do nginx.
 
 Mas após algum tempo procurando e juntando pedaços de respostas do `stackoverflow` consegui chegar num exemplo funcional, com 2 sites rodando php + 1 rodando node, atrás de um nginx.
 
 #### Como testar você mesmo
+
+> Se não quiser fazer manualmente pegue o projeto de exemplo aqui [https://github.com/brilvio/php-fpm-mssql-nginx/](https://github.com/brilvio/php-fpm-mssql-nginx/)
 
 Crie uma pasta onde irá rodar os testes e entre na mesma
 
@@ -339,7 +341,7 @@ volumes:
   site-b:
 ```
 
-Somente os site-a e site-b tem volumes configurados, é porque o nginx precisa ter os arquivos .php dentro dele também e nas mesmas pastas para poder passar para o servidor php-fpm interpretar.
+Somente os `site-a` e `site-b` tem volumes configurados, é porque o nginx precisa ter os arquivos `.php` dentro dele também e nas mesmas pastas para poder passar para o servidor php-fpm interpretar.
 
 Único problema é que se você quiser atualizar os arquivos php dentro dos containers tu vai ter que remover os volumes e recria-los novamente.
 
@@ -351,4 +353,10 @@ Configure no teu arquivo hosts `/etc/hosts`
 127.0.0.1 site-c
 ```
 
-Ao acessar no browser http://site-a:8080 http://site-b:8080 ou http://site-c:8080 verá que o nginx está redicionando para os servidores corretamente.
+Suba os servidores com comando:
+
+```bash
+$ docker-compose up -d
+```
+
+Ao acessar no browser [http://site-a:8080](http://site-a:8080) [http://site-b:8080](http://site-b:8080) ou [http://site-c:8080](http://site-c:8080) verá que o nginx está redicionando para os servidores corretamente.
