@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Transforme seu texto simples em sites e blogs estáticos com Jekyll."
+title: 'Transforme seu texto simples em sites e blogs estáticos com Jekyll.'
 author: eduardo
 categories: [Jekyll, Blog, Tutorial]
 tags: [Jekyll, Blog, Tutorial]
 image: assets/images/jekyll.png
-description: "Transforme seu texto simples em sites e blogs estáticos."
+description: 'Transforme seu texto simples em sites e blogs estáticos.'
 featured: true
 hidden: true
 ---
@@ -21,7 +21,8 @@ Com Jekyll é possível fazer tudo que um blog faz, como posts, paginação, cat
 #### Instalação
 
 ```bash
-gem install bundler jekyll
+sudo apt install ruby-dev
+sudo gem install bundler jekyll
 ```
 
 #### Criação do Site
