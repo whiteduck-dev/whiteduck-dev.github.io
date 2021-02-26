@@ -7,7 +7,7 @@ favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: 'UA-46278016-1'
 disqus: 'whiteduck-dev'
-mailchimp-list: 'https://dev.us7.list-manage.com/subscribe/post?u=d7b52de93f6620a14111ebfc1&amp;id=f27e48339d'
+# mailchimp-list: 'https://dev.us7.list-manage.com/subscribe/post?u=d7b52de93f6620a14111ebfc1&amp;id=f27e48339d'
 include: ['_pages']
 permalink: /:title/
 
