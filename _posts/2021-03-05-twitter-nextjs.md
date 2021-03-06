@@ -48,7 +48,9 @@ Tecnologias que usaremos:
 
 Chegou a hora de colocar a mão no código. Vamos começar criando um novo app Next executando o seguinte comando do nosso terminal:
 
-`yarn create next-app`
+```bash
+yarn create next-app
+```
 
 Precisamos informar o nome do app quando solicitado. Se preferir poderá renomeá-lo quando quiser. De qualquer forma chamarei de twitter-clone. Você conseguirá visualizar algo parecido no seu terminal:
 
@@ -100,7 +102,8 @@ Nosso app Next.js deve estar acessível em http://localhost:3000. Acessando este
 
 #### Adicionando uma base de dados PostgreSQL com Docker
 
-Vamos utilizar o docker para adicionar trabalhar com um banco de dados Postgre, assim poderemos armazenar os usuários e seus respectivos tweets. Podemos criar um novo arquivo `docker-compose.yml` na raíz do projeto com o seguinte conteúdo:
+Vamos utilizar o docker para adicionar trabalhar com um banco de dados Postgre, assim poderemos armazenar os usuários e seus respectivos tweets. Podemos criar um novo arquivo ```
+docker-compose.yml``` na raíz do projeto com o seguinte conteúdo:
 
 ```Docker
 version: "3"
@@ -125,7 +128,7 @@ Se o Docker estiver rodando no seu computador, poderemos então partir para o se
 docker-compose up
 ```
 
-Este comando será responsável por iniciar o container PostgreSQL que ficará disponível através do caminho `postgresql://postgres:@localhost:5432/postgres`. Lembrando que se você preferir pode utilizar uma instalação local do Postgres no lugar do Docker.
+Este comando será responsável por iniciar o container PostgreSQL que ficará disponível através do caminho ```postgresql://postgres:@localhost:5432/postgres```. Lembrando que se você preferir pode utilizar uma instalação local do Postgres no lugar do Docker.
 
 #### Adicionando o Chackra UI
 
