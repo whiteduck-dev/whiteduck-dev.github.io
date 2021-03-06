@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Criando uma aplicação estilo Twitter com Next.js."
-author: Bruno Viganó
+author: bruno
 categories: [Next.js, Twitter, TypeScript]
 tags: [Next.js, Twitter, TypeScript]
 image: assets/images/twitter-clone/twitter-blog.jpeg

@@ -1,14 +1,14 @@
 # Site
-name: 'WhiteDuck.Dev'
-title: 'WhiteDuck.Dev'
-description: 'Tudo sobre Tudo de Tecnologia ;D'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: ''
-google_analytics: 'UA-46278016-1'
-disqus: 'whiteduck-dev'
+name: "WhiteDuck.Dev"
+title: "WhiteDuck.Dev"
+description: "Tudo sobre Tudo de Tecnologia ;D"
+logo: "assets/images/logo.png"
+favicon: "assets/images/logo.png"
+baseurl: ""
+google_analytics: "UA-46278016-1"
+disqus: "whiteduck-dev"
 # mailchimp-list: 'https://dev.us7.list-manage.com/subscribe/post?u=d7b52de93f6620a14111ebfc1&amp;id=f27e48339d'
-include: ['_pages']
+include: ["_pages"]
 permalink: /:title/
 
 # Authors
@@ -21,7 +21,7 @@ authors:
     web: https://www.emalherbi.com
     twitter: https://twitter.com/emalherbi
     linkedin: https://www.linkedin.com/in/emalherbi/
-    description: 'Full-Stack Web Developer.'
+    description: "Full-Stack Web Developer."
   fernando:
     name: Fernando Derkoski de Souza
     display_name: brilvio
@@ -30,7 +30,14 @@ authors:
     web: https://www.derkoski.com
     twitter: https://twitter.com/brilvio
     linkedin: https://www.linkedin.com/in/derkoski/
-    description: 'Full-Stack Developer'
+    description: "Full-Stack Developer"
+  bruno:
+    name: Bruno Viganó
+    display_name: Bruno Viganó
+    gravatar: 4629004a0f120d11d1706b356922f0dd
+    email: bruno.vigano@gmail.com
+    linkedin: https://www.linkedin.com/in/bruno-vigan%C3%B3-78a608104/
+    description: "Full-Stack Developer"
 
 # Plugins
 plugins:
@@ -46,7 +53,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: "/category/:name/"
 
 # Pagination
 paginate: 6
@@ -63,11 +70,11 @@ kramdown:
       line_numbers: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: 'disabled'
-adsense-data-ad-client: 'ca-pub-3412143450191416'
-adsense-data-ad-slot: '1363087678'
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: 'disabled'
+lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
