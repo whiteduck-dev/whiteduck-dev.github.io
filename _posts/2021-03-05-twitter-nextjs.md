@@ -140,7 +140,7 @@ yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
 Vamos agora na pasta pages renomear nosso `_app.js` para `_app.tsx` e substituir seu conteúdo pelo trecho a seguir:
 
-```node
+```
 // pages/_app.tsx
 
 import { ChakraProvider } from "@chakra-ui/react";
