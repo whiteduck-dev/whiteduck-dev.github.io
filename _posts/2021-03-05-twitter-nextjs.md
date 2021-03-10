@@ -140,6 +140,31 @@ yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
 Vamos agora na pasta pages renomear nosso `_app.js` para `_app.tsx` e substituir seu conteúdo pelo trecho a seguir:
 
+aaa
+{% highlight JavaScript %}
+// pages/_app.tsx
+
+import { ChakraProvider } from "@chakra-ui/react";
+import { AppProps } from "next/app";
+import Head from "next/head";
+import React from "react";
+
+const App = ({ Component, pageProps }: AppProps) => {
+  return (
+    <>
+      <Head>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+      </Head>
+      <ChakraProvider>
+        <Component {...pageProps} />
+      </ChakraProvider>
+    </>
+  );
+};
+
+export default App;
+{% endhighlight %}
+
 ```JavaScript
 // pages/_app.tsx
 
